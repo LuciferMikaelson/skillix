@@ -123,11 +123,13 @@ if (isset($_POST['submit']))
     }
  	else
  	{
+		// final query after all the validations
  		$sql= "insert into employee_registration(Employee_name, Number, Email, Password, Field, Skill, Status, Resume) values('$Employee_Name' , '$Number' , '$Email' , '$Password' , '$Field' , '$Skill' , '$Status' , '$Resume')";
 	
         
         if ($dbconnect->query($sql) === TRUE) 
         {
+		// showing feedback messages
             echo "<p style='color:green;padding-left:10px;font-family: Consolas;font-weight:bold;font-size:20px;'> Registration Successfully Completed. <a href='login.php'> Click Here to Login </a> </p>";
         } 
         else 
