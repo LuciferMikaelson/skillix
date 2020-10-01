@@ -31,7 +31,7 @@
   
 </head>
 <body>
-
+<!-- Navigation bar-->
     <nav class="navbar navbar-expand-md navbar-dark   fixed-top nava    " style="padding:3vh;  font-size: 18px;background-color: #b32d00; ">
     <a class="navbar-brand" href="index.php">
     <img src="image/logo.png" width="30" height="30" class="d-inline-block align-top logo" alt="">
