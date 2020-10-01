@@ -38,14 +38,14 @@
 	</div>
 </div>
 </div>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row"  style="text-align: justify; font-size: 18px;padding-top: 20px;">
 				<div class="col-sm-12">
 					
 				
 				
 		
-				<p>Scope of this website is in engineering field, Educational field,
+				<h1>Scope of this website is in engineering field, Educational field,
 		Artistic field. This website for Company, Employee, Student or Artist
 		who can deal online for job, and get job easily. Skillix System is
 		suitable for Skill based people. This project can be use when the
@@ -53,7 +53,7 @@
 		Artistic field. This website for Company, Employee, Student or Artist
 		who can deal online for job, and get job easily. Skillix System is
 		suitable for Skill based people. This project can be use when the
-		company need particular skillful person, Employee/student/Artist use</p>
+		company need particular skillful person, Employee/student/Artist use</h1>
 		</div>	
 	</div>
 	</div>
