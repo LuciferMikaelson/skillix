@@ -33,7 +33,7 @@
 		communicate with each other an online may represent real-world
 		professional relationship. Company search for candidate who having a
 		”Skillix”account. And candidate also use website for searching
-		company.make you future with us.
+		company.make your future with us.
 		</p>
 	</div>
 </div>
