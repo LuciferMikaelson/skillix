@@ -23,10 +23,6 @@
 			Register Here...</b></h6></i>
 			<form style=" padding-top: 4vh; " method="POST" action="#" >
 		
-		<div class="form-group">
-		<b><label for="formGroupExampleInput" >Company Name</label></b>
-		<input type="text"  name="username" class="form-control  " id="inputbtn"  placeholder="Enter Company Name" required oninvalid="this.setCustomValidity('Please Provide Company Name...!!!')" oninput="this.setCustomValidity('')">
-		</div>
 		 
 			<div class="form-group">
 		<b><label for="formGroupExampleInput" >Job Category</label></b>
@@ -51,12 +47,7 @@
 		 <input type="password" class="form-control " placeholder="Enter Password " id="inputPassword3epwd"  name="pwd"  required  style="border-radius: 10px;" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" style="border-radius: 10px;" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" oninvalid="this.setCustomValidity('Please Enter Password in Correct Foramt...!!!')" oninput="this.setCustomValidity('')">
 		</div>
 
-		 <div class="form-group ">
-	 	<b><label for="inputPassword3" > Confirm Password</label></b>
-		 <input type="password" class="form-control " placeholder="Confirm Password " id="inputPassword3epwd"  name="c_pwd"  required  style="border-radius: 10px;" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password did  not matched yet...">
-		</div>
-
- 		
+		
 			
 
 		<div class="form-group ">
@@ -119,11 +110,7 @@ if (isset($_POST['submit']))
         {
             echo "<p style='color:green;padding-left:10px;font-family: Consolas;font-weight:bold;font-size:20px;'> Registration Successfully Completed. <a href='login.php'> Click Here to Login </a> </p>";
         } 
-        else 
-        {
-            echo "Error: " . $sql . "<br>" . $dbconnect->error;
-        }
-	}
+      
 }	
 ?>
 </form>
