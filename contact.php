@@ -1,5 +1,4 @@
 <?php include 'header.php'; ?>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Home</title>
@@ -13,8 +12,7 @@
 <body>
 	<div class="container-fluid">
 		<div class="row"   style="padding-top: 110px;">
-			<div class="col-sm-3">
-				
+			<div class="col-sm-3">				
 			</div>
 
 			
@@ -46,13 +44,9 @@
 		</form>
 
 		</div>
-		</div>	
-		
+		</div>		
 	
-	</div>
-	
-	
-	
+	</div>	
 
 </body>
 </html>
