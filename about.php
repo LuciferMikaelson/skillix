@@ -6,17 +6,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
  
-  <link rel="stylesheet" type="text/css" href="css/skillix.css">
+  <link rel="stylesheet" type="text/css" href="css/skillix.css"> <!--Importing main CSS file.-->
 </head>
 
 
 <body>
 	<div class="container">
-		<div class="row"   style="padding-top: 70px;">
+		<div class="row" style="padding-top: 70px;">
 			<div class="col-sm-12">
 				<center ><h2 id="service" style="padding-top: 2%;   padding-bottom: 1%; color: #451f55;">About</h2>
-	<hr width="50%"style="border:2px solid grey;	">
-</center>
+				<hr width="50%"style="border:2px solid grey;">
+				</center>
 			</div>
 
 		</div>
@@ -44,8 +44,11 @@
 					
 				
 				
-		
-				<h1>Scope of this website is in engineering field, Educational field,
+		<!--
+
+		<p>Scope of this website is in engineering field, Educational field,
+
+				<h1>Scope of this website is in engineering field, Educational field, master -->
 		Artistic field. This website for Company, Employee, Student or Artist
 		who can deal online for job, and get job easily. Skillix System is
 		suitable for Skill based people. This project can be use when the
