@@ -63,21 +63,21 @@
 		<a href="register.php"  class="btn btn-danger" style="padding-left: 60px; padding-right: 60px;  margin-bottom:20px;  border-radius: 30px;">Back</button></a>
 <?php
 
-// including database coneectivity file
+// including database connectivity file
 include "db.php";
 
 
 if (isset($_POST['submit'])) 
 {
 	
-    $Company_Name = $_POST['username'];
-    $Job_Category = $_POST['j_cat'];
-    $Number = $_POST['cno'];
-    $Email = $_POST['email'];
-    $Password = $_POST['pwd'];
+    $Company_Name = $_POST['username'];//Name
+    $Job_Category = $_POST['j_cat'];//Category
+    $Number = $_POST['cno'];//Number
+    $Email = $_POST['email'];//Email
+    $Password = $_POST['pwd'];//Password
     $c_pwd = $_POST['c_pwd'];
-    $About_us = $_POST['company_info'];
-    $Logo = $_POST['logo'];
+    $About_us = $_POST['company_info'];//About us
+    $Logo = $_POST['logo'];//Logo
 
     // logic of unique email id
     if ($dbconnect -> connect_errno) 
@@ -122,5 +122,5 @@ if (isset($_POST['submit']))
 </body>
 </html>
 
-<?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>//Including footer file
  
