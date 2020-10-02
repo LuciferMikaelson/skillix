@@ -5,11 +5,11 @@
 	{
 		session_destroy();
 		header("location:index.php");
-	}
-
-	if(isset($_GET['elogout']))
+	}else_if(isset($_GET['elogout']))
 	{
 			session_destroy();
 			header("location:index.php");
+	}else{
+		header("location:index.php");
 	}
 ?>
